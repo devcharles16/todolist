@@ -87,7 +87,7 @@ function toggle(id) {
   });
 addToLocalStorage(todos);
 }
-// deletes a todo from todos array, then updates localstorage and renders updated list to screen
+// deletes from todos array, update localstorage and displays updated list to screen
 function deleteTodo(id) {
   // filters out the <li> with the id and updates the todos array
   todos = todos.filter(function(item) {
